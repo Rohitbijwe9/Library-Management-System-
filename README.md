@@ -16,36 +16,28 @@ Borrow History: View personal borrowing history in real-time.
 
 Installation
 Clone the Repository
-
-bash
-Copy code
 git clone https://github.com/Rohitbijwe9/Library-Management-System-.git  
-cd Library-Management-System-  
-Set Up Virtual Environment
+cd Library-Management-System- 
 
-bash
-Copy code
+
+Set Up Virtual Environment
 python -m venv venv  
 source venv/bin/activate  # Linux/macOS  
 venv\Scripts\activate     # Windows  
+
+
 Install Dependencies
+pip install -r requirements.txt 
 
-bash
-Copy code
-pip install -r requirements.txt  
+
 Apply Migrations
-
-bash
-Copy code
 python manage.py makemigrations  
 python manage.py migrate  
+
+
 Create Superuser
-
-bash
-Copy code
 python manage.py createsuperuser  
-Run the Server
 
-bash
-Copy code
+
+Run the Server
 python manage.py runserver  
