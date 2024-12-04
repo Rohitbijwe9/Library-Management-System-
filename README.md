@@ -1,6 +1,6 @@
 # 📚 Library Management System
 
-An advanced backend solution built with Django and Django REST Framework to streamline library operations. This system empowers librarians to efficiently manage users, books, borrow requests, and track borrowing history, while allowing library users to browse books, make borrow requests, and view their borrowing history.
+An advanced backend solution built with Django and Django REST Framework to  library operations. This system empowers librarians to efficiently manage users, books, borrow requests, and track borrowing history, while allowing library users to browse books, make borrow requests, and view their borrowing history.
 
 ## 🌟 Features
 
